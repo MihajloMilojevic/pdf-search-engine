@@ -20,9 +20,9 @@ class SearchEngine:
     def __init__(self, file_path: str, page_offset: int = 0):
         self.file_path: str = file_path
         self.page_offset: int = page_offset
-        self.document = pymupdf.open(file_path)
-        self.trie: Trie = generate_trie(self.document)
-        self.graph: PagesGraph = generate_graph(self.document, page_offset)
+        document = pymupdf.open(file_path)
+        self.trie: Trie = generate_trie(document)
+        self.graph: PagesGraph = generate_graph(document, page_offset)
 
 
     def search(self, input_text: str):
