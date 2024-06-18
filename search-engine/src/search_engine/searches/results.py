@@ -22,6 +22,9 @@ class PageResult:
             self._words[item.word].occurrences += item.occurrences
             self._words[item.word].positions = self._words[item.word].positions.union(item.positions)
 
+    def items(self):
+        return set(self._words.values())
+
     def words(self):
         return set(self._words.keys())
 
@@ -87,8 +90,9 @@ class SearchResult:
         for page in self:
             if page in other:
                 for word in self[page]:
-                    if word in other[page]:
-                        result.add(page, self[page][word])
+                    result.add(page, self[page][word])
+                for word in other[page]:
+                    result.add(page, other[page][word])
         return result
     
     def difference(self, other: 'SearchResult'):
@@ -97,8 +101,4 @@ class SearchResult:
             if page not in other:
                 for word in self[page]:
                     result.add(page, self[page][word])
-            else:
-                for word in self[page]:
-                    if word not in other[page]:
-                        result.add(page, self[page][word])
         return result

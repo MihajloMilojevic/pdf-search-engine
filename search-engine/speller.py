@@ -10,6 +10,7 @@ def suggest_corrections(word):
 
 
 if __name__ == '__main__':
+    d = {"a": 1, "b": 2, "c": 3}
     while True:
         word = input("Enter a word: ")
         if word == "exit":

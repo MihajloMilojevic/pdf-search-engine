@@ -4,4 +4,4 @@ from .base_search import BaseSearch
 from .or_expression import OrExpression
 from .and_expression import AndExpression
 from .not_expression import NotExpression
-from .fraze_search import FrazeSearch
+from .phrase_search import PhraseSearch
