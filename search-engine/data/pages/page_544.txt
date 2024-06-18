@@ -1,0 +1,91 @@
+11.6. Red-Black Trees
+523
+12
+7
+16
+17
+15
+3
+4
+5
+14
+18
+7
+5
+16
+18
+14
+17
+15
+12
+4
+(a)
+(b)
+4
+16
+18
+14
+17
+15
+7
+5
+7
+16
+18
+14
+17
+15
+5
+4
+(c)
+(d)
+14
+16
+15
+18
+7
+4
+5
+16
+15
+14
+7
+4
+5
+5
+15
+14
+7
+4
+16
+(e)
+(f)
+(g)
+16
+14
+7
+4
+5
+14
+7
+4
+5
+4
+7
+5
+14
+14
+7
+5
+4
+(h)
+(i)
+(j)
+(k)
+Figure 11.41: A sequence of deletions from a red-black tree: (a) initial tree; (b) re-
+moval of 3; (c) removal of 12, causing a black deﬁcit to the right of 7 (handled by
+restructuring); (d) after restructuring; (e) removal of 17; (f) removal of 18, causing
+a black deﬁcit to the right of 16 (handled by recoloring); (g) after recoloring; (h) re-
+moval of 15; (i) removal of 16, causing a black deﬁcit to the right of 14 (handled
+initially by a rotation); (j) after the rotation the black deﬁcit needs to be handled by
+a recoloring; (k) after the recoloring.

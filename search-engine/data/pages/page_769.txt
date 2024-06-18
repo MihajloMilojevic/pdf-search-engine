@@ -1,0 +1,84 @@
+748
+Index
+total order, 16
+tower-of-twos, 684
+Towers of Hanoi, 181
+trailer sentinel, 270
+transitive closure, 643, 651–654
+transitive property, 385, 537
+tree, 164, 299–361, 623
+abstract data type, 305–306
+binary, see binary tree
+binary search, see binary search tree
+binary tree representation, 356
+child node, 301
+decision, 311
+depth, 308–310
+edge, 302
+expression, 312, 348–351
+external node, 302
+height, 309–310
+internal node, 302
+leaf, 302
+level, 315
+linked structure, 327
+multiway, 502–504
+node, 301
+ordered, 304
+parent node, 301
+path, 302
+red-black, see red-black tree
+root node, 301
+splay, see splay tree
+traversal, 164, 328–347
+breadth-ﬁrst, 330, 335–336
+Euler tour, 341–347
+inorder, 331, 335–336, 461, 476
+postorder, 329, 335
+preorder, 328, 333–334
+(2,4), see (2,4) tree
+Tree class, 303, 306–310
+triangulation, 615
+trie, 604–612
+compressed, 608
+trinode restructuring, 476, 484, 515
+True, 7, 76
+true division, 13
+try-except structure, 36–38
+Tsakalidis, Athanasios, 535
+tuple class, 7, 9, 10, 202–203
+(2,4) tree, 502–511
+type function, 29, 449
+TypeError, 33–35, 72, 415
+Ullman, Jeffrey, 254, 298, 535, 719
+Unicode, 10, 217, 583, 721
+union-ﬁnd, 679, 681–684
+unit testing, 49, 68
+unittest module, 68
+unpacking a sequence, 44
+UnsortedPriorityQueue class, 366–367
+UnsortedTableMap class, 408–409, 424
+up-heap bubbling, 372
+update methods, 6
+ValueError, 8, 33, 83, 206, 303, 305
+van Leeuwen, Jan, 696
+van Rossum, Guido, 2
+vars function, 46
+Vector, 77–78
+vertex, 620
+degree, 621
+virtual memory, 707
+Vishkin, Uzi, 361
+Vitter, Jeffrey, 147, 458, 719
+Warshall, Stephen, 696
+Wegner, Peter, 108, 254
+while loop, 20
+whitespace, 3, 722–724
+Williams, J. W. J., 400
+Wood, Derick, 298
+worst-ﬁt algorithm, 699
+XML, 237, 582
+yield statement, 40–41, 296, 334
+Zelle, John, 55
+zero-indexing, 14, 219
+ZeroDivisionError, 33, 36, 83, 303

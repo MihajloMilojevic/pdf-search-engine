@@ -1,0 +1,47 @@
+492
+Chapter 11. Search Trees
+14
+11
+12
+5
+7
+13
+17
+16
+8
+4
+6
+3
+10
+(a)
+16
+6
+5
+17
+8
+3
+10
+4
+12
+7
+14
+13
+11
+(b)
+17
+11
+4
+12
+6
+5
+7
+13
+16
+14
+8
+3
+10
+(c)
+Figure 11.19: Example of splaying a node: (a) splaying the node storing 14 starts
+with a zig-zag; (b) after the zig-zag; (c) the next step will be a zig-zig. (Continues
+in Figure 11.20.)

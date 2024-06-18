@@ -1,0 +1,70 @@
+300
+Chapter 8. Trees
+8.1
+General Trees
+Productivity experts say that breakthroughs come by thinking “nonlinearly.” In
+this chapter, we discuss one of the most important nonlinear data structures in
+computing—trees. Tree structures are indeed a breakthrough in data organization,
+for they allow us to implement a host of algorithms much faster than when using
+linear data structures, such as array-based lists or linked lists. Trees also provide a
+natural organization for data, and consequently have become ubiquitous structures
+in ﬁle systems, graphical user interfaces, databases, Web sites, and other computer
+systems.
+It is not always clear what productivity experts mean by “nonlinear” thinking,
+but when we say that trees are “nonlinear,” we are referring to an organizational
+relationship that is richer than the simple “before” and “after” relationships be-
+tween objects in sequences. The relationships in a tree are hierarchical, with some
+objects being “above” and some “below” others. Actually, the main terminology
+for tree data structures comes from family trees, with the terms “parent,” “child,”
+“ancestor,” and “descendant” being the most common words used to describe rela-
+tionships. We show an example of a family tree in Figure 8.1.
+Eldaah
+Nebaioth
+Kedar
+Adbeel
+Mibsam
+Mishma
+Dumah
+Massa
+Hadad
+Tema
+Jetur
+Naphish
+Kedemah
+Ishmael
+Gad
+Naphtali
+Dan
+Judah
+Levi
+Simeon
+Asher
+Issachar
+Zebulun
+Dinah
+Joseph
+Benjamin
+Eliphaz
+Reuel
+Jeush
+Jalam
+Reuben
+Korah
+Jacob (Israel)
+Esau
+Isaac
+Zimran
+Jokshan
+Medan
+Midian
+Ishbak
+Shuah
+Abraham
+Sheba
+Dedan
+Ephah
+Epher
+Hanoch
+Abida
+Figure 8.1: A family tree showing some descendants of Abraham, as recorded in
+Genesis, chapters 25–36.

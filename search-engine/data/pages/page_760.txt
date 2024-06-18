@@ -1,0 +1,95 @@
+Index
+739
+insertion, 465
+removal, 466–467
+rotation, 475
+trinode restructuring, 476
+binary tree, 311–324, 539
+array-based representation, 325–326
+complete, 370
+full, 311
+improper, 311
+level, 315
+linked structure, 317–324
+proper, 311
+BinaryEulerTour class, 346–347
+BinaryTree class, 303, 313–314, 317, 318,
+335, 336
+binomial expansion, 726
+bipartite graph, 690
+bitwise operators, 14
+Booch, Grady, 108, 298
+bool class, 7, 12
+Boolean expressions, 12
+bootstrapping, 504
+Boyer, Robert, 618
+Boyer-Moore algorithm, 586–589
+Brassard, Gilles, 147
+breadth-ﬁrst search, 648–650
+breadth-ﬁrst tree traversal, 335–336
+break statement, 22
+brute force, 584
+B-tree, 714
+bubble-sort, 297
+bucket-sort, 564–565
+Budd, Timothy, 108, 298
+built-in classes, 7
+built-in functions, 28
+Burger, Doug, 719
+byte, 185
+caching, 705–710
+Caesar cipher, 216–218
+call stack, 703
+Campbell, Jennifer, 55
+Cardelli, Luca, 108, 254
+Carlsonn, Svante, 400
+Cedar, Vern, 55
+ceiling function, 116, 122, 726
+central processing unit (CPU), 111
+chained assignment, 17
+chained operators, 17
+ChainHashMap class, 424
+character-jump heuristic, 586
+Chen, Wen-Chin, 458
+Chernoff bound, 579, 580, 730
+child class, 82
+child node, 301
+chr function, 29
+circularly linked list, 266–269, 296
+CircularQueue class, 268–269, 306
+Clarkson, Kenneth, 580
+class, 4, 57
+abstract base, 60, 93–95, 306
+base, 82
+child, 82
+concrete, 60, 93
+diagram, 63
+nested, 98–99
+parent, 82
+sub, 82
+super, 82
+clustering, 419
+Cole, Richard, 618
+collections module, 35, 93, 249, 406, 450
+deque class, 249, 251, 267
+collision resolution, 411, 417–419
+Comer, Douglas, 719
+comment syntax in Python, 3
+compact array, 190, 711
+comparison operators, 13
+complete binary tree, 370
+complete graph, 687
+composition design pattern, 287
+compression function, 411, 416
+concrete class, 60, 93
+conditional expression, 42
+conditional probability, 729
+conditional statements, 18
+connected components, 623, 643, 646
+constructor, 6
+continue statement, 22
+contradiction, 137
+contrapositive, 137
+copy module, 49, 102, 188
+copying objects, 101–103
+core memory, 705

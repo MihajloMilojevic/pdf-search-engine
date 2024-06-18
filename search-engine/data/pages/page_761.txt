@@ -1,0 +1,94 @@
+740
+Index
+Cormen, Thomas, 535, 696
+Counter class, 450
+CPU, 111
+CRC cards, 63
+CreditCard class, 63, 69–73, 73, 83–86
+Crochemore, Maxime, 618
+cryptography, 216–218
+ctypes module, 191, 195
+cubic function, 119
+cyber-dollar, 197–199, 497–500, 682
+cycle, 623
+directed, 623
+cyclic-shift hash code, 413–414
+DAG, see directed acyclic graph
+data packets, 227
+data structure, 110
+Dawson, Michael, 55
+debugging, 62
+decision tree, 311, 463, 562
+decorate-sort-undecorate design pattern,
+570
+decrease-and-conquer, 571
+decryption, 216
+deep copy, 102, 188
+deepcopy function, 102, 188
+def keyword, 23
+degree of a vertex, 621
+del operator, 15, 75
+DeMorgan’s Law, 137
+Demurjian, Steven, 108, 254
+depth of a tree, 308–310
+depth-ﬁrst search (DFS), 639–647
+deque, 247–249
+abstract data type, 247–248
+linked-list implementation, 249, 275
+deque class, 249, 251
+descendant, 302
+design patterns, v, 61
+adapter, 231
+amortization, 197–200
+brute force, 584
+composition, 287, 365, 407
+divide-and-conquer, 538–542, 550–
+551
+dynamic programming, 594–600
+factory method, 479
+greedy method, 603
+position, 279–281
+prune-and-search, 571–573
+template method, 93, 342, 406, 448,
+478
+DFS, see depth-ﬁrst search
+Di Battista, Giuseppe, 361, 696
+diameter, 358
+dict class, 7, 11, 402
+dictionary, 11, 16, 402–408, see also map
+dictionary comprehension, 43
+Dijkstra’s algorithm, 661–669
+Dijkstra, Edsger, 182, 696
+dir function, 46
+directed acyclic graph, 655–657
+disk usage, 157–160, 163–164, 340
+divide-and-conquer, 538–542, 550–551
+division method for hash codes, 416
+documentation, 66
+double hashing, 419
+double-ended queue, see deque
+doubly linked list, 260, 270–276
+DoublyLinkedBase class, 273–275, 278
+down-heap bubbling, 374
+duck typing, 60, 306
+dynamic array, 192–201, 246
+shrinking, 200, 246
+DynamicArray class, 195–196, 204, 206,
+224, 225, 245
+dynamic binding, 100
+dynamic dispatch, 100
+dynamic programming, 594–600
+dynamically typed, 5
+Eades, Peter, 361, 696
+edge, 302, 620
+destination, 621
+endpoint, 621
+incident, 621
+multiple, 622
+origin, 621
+outgoing, 621
+parallel, 622
+self-loop, 622
+edge list, 627–629
+edge relaxation, 661
+edit distance, 616

@@ -1,0 +1,136 @@
+14.7. Minimum Spanning Trees
+673
+Analyzing the Prim-Jarn´
+ık Algorithm
+The implementation issues for the Prim-Jarn´
+ık algorithm are similar to those for
+Dijkstra’s algorithm, relying on an adaptable priority queue Q (Section 9.5.1).
+We initially perform n insertions into Q, later perform n extract-min operations,
+and may update a total of m priorities as part of the algorithm. Those steps are
+the primary contributions to the overall running time. With a heap-based priority
+queue, each operation runs in O(logn) time, and the overall time for the algorithm
+is O((n + m)logn), which is O(mlogn) for a connected graph. Alternatively, we
+can achieve O(n2) running time by using an unsorted list as a priority queue.
+Illustrating the Prim-Jarn´
+ık Algorithm
+We illustrate the Prim-Jarn´
+ık algorithm in Figures 14.20 through 14.21.
+187
+1391
+740
+621
+867
+1090
+849
+1846
+802
+1235
+2704
+184
+144
+337
+2342
+1258
+946
+PVD
+1464
+1121
+JFK
+BWI
+ORD
+MIA
+LAX
+DFW
+SFO
+BOS
+144
+1391
+740
+621
+867
+1090
+849
+1846
+802
+1235
+2704
+184
+337
+2342
+1258
+946
+187
+PVD
+1464
+1121
+SFO
+BOS
+JFK
+BWI
+ORD
+MIA
+LAX
+DFW
+(a)
+(b)
+1090
+621
+867
+849
+187
+1846
+802
+1235
+2704
+184
+144
+337
+2342
+1258
+946
+740
+1391
+PVD
+1464
+1121
+SFO
+BOS
+JFK
+BWI
+ORD
+MIA
+LAX
+DFW
+187
+740
+867
+1090
+849
+1846
+802
+1235
+2704
+184
+144
+337
+2342
+1258
+1391
+621
+946
+PVD
+1464
+1121
+SFO
+BOS
+JFK
+BWI
+ORD
+MIA
+LAX
+DFW
+(c)
+(d)
+Figure 14.20: An illustration of the Prim-Jarn´
+ık MST algorithm, starting with vertex
+PVD. (Continues in Figure 14.21.)

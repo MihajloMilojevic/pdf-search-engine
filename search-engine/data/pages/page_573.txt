@@ -1,0 +1,63 @@
+552
+Chapter 12. Sorting and Selection
+63
+24
+85
+17
+31
+96
+50
+45
+24
+31
+85
+63
+96
+50
+45
+17
+(a)
+(b)
+85
+63
+96
+50
+45
+17
+24
+31
+63
+96
+50
+45
+31
+24
+17
+85
+(c)
+(d)
+63
+96
+50
+45
+24
+17
+31
+85
+63
+96
+50
+45
+31
+17
+24
+85
+(e)
+(f)
+Figure 12.10: Visualization of quick-sort. Each node of the tree represents a re-
+cursive call. The nodes drawn with dashed lines represent calls that have not been
+made yet. The node drawn with thick lines represents the running invocation. The
+empty nodes drawn with thin lines represent terminated calls. The remaining nodes
+represent suspended calls (that is, active invocations that are waiting for a child in-
+vocation to return). Note the divide steps performed in (b), (d), and (f). (Continues
+in Figure 12.11.)

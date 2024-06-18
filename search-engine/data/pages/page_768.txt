@@ -1,0 +1,96 @@
+Index
+747
+tree, 669
+shuﬄe function, 50, 225
+sieve algorithm, 454
+signature, 23
+simultaneous assignment, 45, 91
+singly linked list, 256–260
+skip list, 437–445
+analysis, 443–445
+insertion, 440
+removal, 442–443
+searching, 439–440
+update operations, 440–443
+Sleator, Daniel, 535
+slicing notation, 14–15, 188, 203, 583
+sorted function, 6, 23, 28, 29, 136, 537,
+569
+sorted map, 427–436
+abstract data type, 427
+search table, 428–433
+SortedPriorityQueue class, 368–369
+SortedTableMap class, 429–433
+sorting, 214, 385–386, 537–566
+bubble-sort, 297
+bucket-sort, 564–565
+external-memory, 715–716
+heap-sort, 384, 388–389
+in-place, 389, 559
+insertion-sort, 214–215, 285, 387
+key, 385
+lower bound, 562–563
+merge-sort, 538–550
+priority-queue, 385–386
+quick-sort, 550–561
+radix-sort, 565–566
+selection-sort, 386–387
+stable, 565
+Tim-sort, 568
+source code, 2
+space usage, 110
+spanning tree, 623, 638, 642, 643, 670
+sparse array, 298
+splay tree, 478, 490–501
+split function of str class, 724
+stable sorting, 565
+stack, 229–238
+abstract data type, 230–231
+array implementation, 231–234
+linked-list implementation, 261–263
+Stein, Clifford, 535, 696
+Stephen, Graham, 618
+Stirling’s approximation, 727
+stop words, 606, 617
+StopIteration, 33, 39, 41, 79
+str class, 7, 9, 10, 208–210, 721–724
+strict weak order, 385
+string, see also str class
+null, 583
+preﬁx, 583
+sufﬁx, 583
+strongly connected components, 646
+strongly connected graph, 623
+subclass, 82
+subgraph, 623
+subproblem overlap, 597
+subsequence, 597
+subtree, 302
+sufﬁx, 583
+sum function, 29, 35
+summation, 120
+geometric, 121, 728
+telescoping, 727
+Summerﬁeld, Mark, 55
+super function, 84
+superclass, 82
+Sussman, Gerald, 182
+Sussman, Julie, 182
+sys module, 49, 190, 192, 701
+SystemExit, 83, 303
+Tamassia, Roberto, 361, 696
+Tardos, ´
+Eva, 580
+Tarjan, Robert, 361, 535, 696
+telescoping sum, 727
+template method pattern, 93, 342, 406,
+448, 478
+testing, 62
+unit, 49
+text compression, 601–602
+three-way set disjointness, 134–135
+Tic-Tac-Toe, 221–223, 330, 361
+Tim-sort, 568
+time module, 49, 111
+Tollis, Ioannis, 361, 696
+topological ordering, 655–657

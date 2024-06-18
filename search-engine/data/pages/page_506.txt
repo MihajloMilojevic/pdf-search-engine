@@ -1,0 +1,52 @@
+11.3. AVL Trees
+485
+T3
+T2
+x
+h−1
+h−1
+T4
+y
+T1
+z
+h
+h+2
+h
+h
+h+1
+(a)
+h+2
+T3
+T2
+x
+h−1
+h
+T4
+y
+T1
+z
+h
+h+3
+h
+h+1
+(b)
+h
+h+2
+T2
+T1
+h
+z
+h−1
+h+1
+T4
+h
+T3
+y
+h+1
+x
+(c)
+Figure 11.13: Rebalancing of a subtree during a typical insertion into an A
+VL tree:
+(a) before the insertion; (b) after an insertion in subtree T3 causes imbalance at z;
+(c) after restoring balance with trinode restructuring. Notice that the overall height
+of the subtree after the insertion is the same as before the insertion.

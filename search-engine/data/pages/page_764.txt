@@ -1,0 +1,95 @@
+Index
+743
+Karger, David, 696
+Karp, Richard, 361
+KeyboardInterrupt, 33, 83, 303
+KeyError, 33, 34, 83, 303, 403, 404, 422,
+460
+keyword parameter, 27
+Klein, Philip, 696
+Kleinberg, Jon, 580
+Knuth, Donald, 147, 227, 298, 361, 400,
+458, 535, 580, 618, 696, 719
+Knuth-Morris-Pratt algorithm, 590–593
+Kosaraju, S. Rao, 696
+Kruskal’s algorithm, 676–684
+Kruskal, Joseph, 696
+L’Hˆ
+opital’s rule, 731
+Landis, Evgenii, 481, 535
+Langston, Michael, 580
+last-in, ﬁrst-out (LIFO), 229
+lazy evaluation, 39, 80
+LCS, see longest common subsequence
+leaves, 302
+Lecroq, Thierry, 618
+Leiserson, Charles, 535, 696
+len function, 29
+Lesuisse, R., 182
+Letscher, David, 55, 108
+level in a tree, 315
+level numbering, 325, 371
+lexicographic order, 15, 203, 385, 565
+LIFO, 229
+linear exponential, 728
+linear function, 117
+linear probing, 418
+linearity of expectation, 573, 730
+linked list, 256–293
+doubly linked, 260, 270–276, 281
+singly linked, 256–260
+linked structure, 317
+LinkedBinaryTree class, 303, 318–324,
+335, 348
+LinkedDeque class, 275–276
+LinkedQueue class, 264–265, 271, 306,
+335
+LinkedStack class, 261–263
+Lins, Rafael, 719
+Liotta, Giuseppe, 361, 696
+Liskov, Barbara, 108, 254, 298
+list
+of favorites, 286–291
+positional, 277–285
+list class, 7, 9, 202–207
+sort method, 23, 569
+list comprehension, 43, 207, 209, 221
+literal, 6
+Littman, Michael, 580
+live objects, 700
+load factor, 417, 420–421
+local scope, 23–25, 46, 96
+locality of reference, 289, 707
+locator, 390
+log-star function, 684
+logarithm function, 115–116, 725
+logical operators, 12
+longest common subsequence, 597–600
+looking-glass heuristic, 586
+lookup table, 410
+LookupError, 83, 303
+loop invariant, 140
+lowest common ancestor, 358
+Lutz, Mark, 55
+Magnanti, Thomas, 696
+main memory, 705
+map
+abstract data type, 402–408
+AVL tree, 481–488
+binary search tree, 460–479
+hash table, 410–426
+red-black tree, 512–525
+skip list, 437–445
+sorted, 460
+(2,4) tree, 502–511
+update operations, 442, 465, 466,
+483, 486
+MapBase class, 407–408
+Mapping abstract base class, 406
+mark-sweep algorithm, 701, 702
+math module, 28, 49
+matrix, 219
+matrix chain-product, 594–596
+max function, 27–29
+maximal independent set, 692
+McCreight, Edward, 618, 719

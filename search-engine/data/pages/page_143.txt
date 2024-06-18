@@ -1,0 +1,76 @@
+122
+Chapter 3. Algorithm Analysis
+3.2.1
+Comparing Growth Rates
+To sum up, Table 3.1 shows, in order, each of the seven common functions used in
+algorithm analysis.
+constant
+logarithm
+linear
+n-log-n
+quadratic
+cubic
+exponential
+1
+logn
+n
+nlogn
+n2
+n3
+an
+Table 3.1: Classes of functions. Here we assume that a > 1 is a constant.
+Ideally, we would like data structure operations to run in times proportional
+to the constant or logarithm function, and we would like our algorithms to run in
+linear or n-log-n time. Algorithms with quadratic or cubic running times are less
+practical, and algorithms with exponential running times are infeasible for all but
+the smallest sized inputs. Plots of the seven functions are shown in Figure 3.4.
+f(n)
+107
+106
+n
+105
+104
+103
+102
+Linear
+Exponential
+Constant
+Logarithmic
+N-Log-N
+Quadratic
+Cubic
+1015
+1014
+1013
+1012
+1011
+1010
+109
+108
+101
+100
+104
+108
+1012
+1016
+1020
+1028
+1032
+1036
+1040
+1044
+100
+1024
+Figure 3.4: Growth rates for the seven fundamental functions used in algorithm
+analysis. We use base a = 2 for the exponential function. The functions are plotted
+on a log-log chart, to compare the growth rates primarily as slopes. Even so, the
+exponential function grows too fast to display all its values on the chart.
+The Ceiling and Floor Functions
+One additional comment concerning the functions above is in order. When dis-
+cussing logarithms, we noted that the value is generally not an integer, yet the
+running time of an algorithm is usually expressed by means of an integer quantity,
+such as the number of operations performed. Thus, the analysis of an algorithm
+may sometimes involve the use of the ﬂoor function and ceiling function, which
+are deﬁned respectively as follows:
+• ⌊x⌋= the largest integer less than or equal to x.
+• ⌈x⌉= the smallest integer greater than or equal to x.

@@ -1,0 +1,43 @@
+Appendix
+B
+Useful Mathematical Facts
+In this appendix we give several useful mathematical facts. We begin with some
+combinatorial deﬁnitions and facts.
+Logarithms and Exponents
+The logarithm function is deﬁned as
+logb a = c
+if
+a = bc.
+The following identities hold for logarithms and exponents:
+1. logb ac = logb a+logb c
+2. logb a/c = logb a−logb c
+3. logb ac = clogb a
+4. logb a = (logc a)/logc b
+5. blogc a = alogc b
+6. (ba)c = bac
+7. babc = ba+c
+8. ba/bc = ba−c
+In addition, we have the following:
+Proposition B.1: If a > 0, b > 0, and c > a+b, then
+loga+logb < 2logc−2.
+Justiﬁcation:
+It is enough to show that ab < c2/4. We can write
+ab
+=
+a2 +2ab+b2 −a2 +2ab−b2
+4
+=
+(a+b)2 −(a−b)2
+4
+≤
+(a+b)2
+4
+<
+c2
+4 .
+The natural logarithm function lnx = loge x, where e = 2.71828..., is the value
+of the following progression:
+e = 1+ 1
+1! + 1
+2! + 1
+3! +··· .

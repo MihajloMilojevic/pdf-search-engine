@@ -1,0 +1,69 @@
+Appendix B. Useful Mathematical Facts
+727
+Proposition B.5: If 0 ≤k ≤n, then
+n
+k
+k
+≤
+n
+k
+
+≤nk
+k! .
+Proposition B.6 (Stirling’s Approximation):
+n! =
+√
+2πn
+n
+e
+n 
+1+ 1
+12n +ε(n)
+
+,
+where ε(n) is O(1/n2).
+The Fibonacci progression is a numeric progression such that F0 = 0, F1 = 1,
+and Fn = Fn−1 +Fn−2 for n ≥2.
+Proposition B.7: If Fn is deﬁned by the Fibonacci progression, then Fn is Θ(gn),
+where g = (1+
+√
+5)/2 is the so-called golden ratio.
+Summations
+There are a number of useful facts about summations.
+Proposition B.8: Factoring summations:
+n
+∑
+i=1
+af(i) = a
+n
+∑
+i=1
+f(i),
+provided a does not depend upon i.
+Proposition B.9: Reversing the order:
+n
+∑
+i=1
+m
+∑
+j=1
+f(i, j) =
+m
+∑
+j=1
+n
+∑
+i=1
+f(i, j).
+One special form of is a telescoping sum:
+n
+∑
+i=1
+( f(i)−f(i−1)) = f(n)−f(0),
+which arises often in the amortized analysis of a data structure or algorithm.
+The following are some other facts about summations that arise often in the
+analysis of data structures and algorithms.
+Proposition B.10: ∑n
+i=1 i = n(n+1)/2.
+Proposition B.11: ∑n
+i=1 i2 = n(n+1)(2n+1)/6.

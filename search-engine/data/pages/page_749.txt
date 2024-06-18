@@ -1,0 +1,51 @@
+728
+Appendix B. Useful Mathematical Facts
+Proposition B.12: If k ≥1 is an integer constant, then
+n
+∑
+i=1
+ik is Θ(nk+1).
+Another common summation is the geometric sum, ∑n
+i=0 ai, for any ﬁxed real
+number 0 < a ̸= 1.
+Proposition B.13:
+n
+∑
+i=0
+ai = an+1 −1
+a−1 ,
+for any real number 0 < a ̸= 1.
+Proposition B.14:
+∞
+∑
+i=0
+ai =
+1
+1−a
+for any real number 0 < a < 1.
+There is also a combination of the two common forms, called the linear expo-
+nential summation, which has the following expansion:
+Proposition B.15: For 0 < a ̸= 1, and n ≥2,
+n
+∑
+i=1
+iai = a−(n+1)a(n+1) +na(n+2)
+(1−a)2
+.
+The nth Harmonic number Hn is deﬁned as
+Hn =
+n
+∑
+i=1
+1
+i .
+Proposition B.16: If Hn is the nth harmonic number, then Hn is lnn+Θ(1).
+Basic Probability
+We review some basic facts from probability theory. The most basic is that any
+statement about a probability is deﬁned upon a sample space S, which is deﬁned
+as the set of all possible outcomes from some experiment. We leave the terms
+“outcomes” and “experiment” undeﬁned in any formal sense.
+Example B.17: Consider an experiment that consists of the outcome from ﬂip-
+ping a coin ﬁve times. This sample space has 25 different outcomes, one for each
+different ordering of possible ﬂips that can occur.
+Sample spaces can also be inﬁnite, as the following example illustrates.

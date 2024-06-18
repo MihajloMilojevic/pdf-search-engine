@@ -1,0 +1,68 @@
+11.2. Balanced Search Trees
+477
+single rotation
+T1
+a = z
+b = y
+T2
+c = x
+T3
+T4
+a = z
+T1
+T2
+b = y
+c = x
+T3
+T4
+(a)
+T1
+a = x
+T1
+T2
+b = y
+c = z
+T3
+T4
+single rotation
+T4
+c = z
+b = y
+T3
+a = x
+T2
+(b)
+T3
+T1
+a = z
+T1
+T2
+b = x
+c = y
+T3
+T4
+double rotation
+a = z
+T4
+c = y
+b = x
+T2
+(c)
+T2
+T1
+T2
+b = x
+c = z
+T3
+T4
+double rotation
+a = y
+T4
+c = z
+T1
+a = y
+b = x
+T3
+(d)
+Figure 11.9: Schematic illustration of a trinode restructuring operation: (a and b)
+require a single rotation; (c and d) require a double rotation.

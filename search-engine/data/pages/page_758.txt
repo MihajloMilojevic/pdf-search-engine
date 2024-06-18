@@ -1,0 +1,135 @@
+Index
+# character, 3
+∼operator, 14, 75
+% operator, 13–14, 75, 242
+& operator, 14, 75
+operator, 13, 14, 75
+operator, 75
+= operator, 75
++ operator, 13, 14, 75
++= operator, 16, 75
+−operator, 13, 75
+−= operator, 75
+/ operator, 13, 75
+// operator, 13–14, 75
+< operator, 13, 15, 75, 76
+<< operator, 14, 75, 413
+<= operator, 13, 15, 75, 76
+= operator, 4
+== operator, 12, 15, 75, 76
+> operator, 13, 15, 75, 76
+>= operator, 13, 15, 75
+>> operator, 14, 75, 413
+ˆ operator, 14, 75, 412
+abs
+, 75
+add
+, 74–76
+and
+, 75
+bool
+, 74–76
+call
+, 75
+contains
+, 75, 76, 95, 203, 403
+delitem
+, 75, 403, 460
+eq
+, 75, 76
+ﬂoat
+, 75
+ﬂoordiv
+, 75
+ge
+, 75
+getitem
+, 75, 79, 80, 93, 95, 211,
+212, 403, 460
+gt
+, 75
+hash
+, 75, 415
+iadd
+, 75
+imul
+, 75
+init
+, 71
+int
+, 75
+invert
+, 75
+ior
+, 449
+isub
+, 75
+iter
+, 75, 76, 87, 88, 306, 403
+le
+, 75
+len
+, 75, 76, 79, 95, 403
+lshift
+, 75
+lt
+, 75, 76
+mod
+, 75
+mul
+, 74, 75
+name
+, 68, 73
+ne
+, 75, 76
+neg
+, 75
+next
+, 75, 79, 87, 88
+or
+, 75, 449
+pos
+, 75
+pow
+, 75
+radd
+, 75, 76
+rand
+, 75
+repr
+, 75
+reversed
+, 75, 295, 427
+rﬂoordiv
+, 75
+rlshift
+, 75
+rmod
+, 75
+rmul
+, 74, 75
+ror
+, 75
+rpow
+, 75
+rrshift
+, 75
+rshift
+, 75
+rsub
+, 75
+rtruediv
+, 75
+setitem
+, 75, 403, 460
+slots
+, 99, 261, 287
+str
+, 74, 75, 211, 212
+sub
+, 75
+truediv
+, 75
+xor
+, 75
+737

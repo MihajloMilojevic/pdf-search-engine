@@ -1,0 +1,88 @@
+14.7. Minimum Spanning Trees
+679
+144
+1391
+740
+621
+867
+1090
+1258
+849
+187
+1846
+337
+802
+1235
+2342
+2704
+184
+946
+PVD
+1464
+1121
+BOS
+JFK
+BWI
+ORD
+MIA
+DFW
+SFO
+LAX
+144
+1391
+740
+621
+867
+1090
+1258
+849
+187
+1846
+337
+802
+1235
+2342
+2704
+184
+946
+PVD
+1464
+1121
+ORD
+JFK
+BWI
+MIA
+DFW
+SFO
+LAX
+BOS
+(m)
+(n)
+Figure 14.24: Example of an execution of Kruskal’s MST algorithm (continued).
+The edge considered in (n) merges the last two clusters, which concludes this exe-
+cution of Kruskal’s algorithm. (Continued from Figure 14.23.)
+The Running Time of Kruskal’s Algorithm
+There are two primary contributions to the running time of Kruskal’s algorithm.
+The ﬁrst is the need to consider the edges in nondecreasing order of their weights,
+and the second is the management of the cluster partition. Analyzing its running
+time requires that we give more details on its implementation.
+The ordering of edges by weight can be implemented in O(mlogm), either by
+use of a sorting algorithm or a priority queue Q. If that queue is implemented with
+a heap, we can initialize Q in O(mlogm) time by repeated insertions, or in O(m)
+time using bottom-up heap construction (see Section 9.3.6), and the subsequent
+calls to remove min each run in O(logm) time, since the queue has size O(m). We
+note that since m is O(n2) for a simple graph, O(logm) is the same as O(logn).
+Therefore, the running time due to the ordering of edges is O(mlogn).
+The remaining task is the management of clusters. To implement Kruskal’s
+algorithm, we must be able to ﬁnd the clusters for vertices u and v that are endpoints
+of an edge e, to test whether those two clusters are distinct, and if so, to merge
+those two clusters into one. None of the data structures we have studied thus far
+are well suited for this task. However, we conclude this chapter by formalizing
+the problem of managing disjoint partitions, and introducing efﬁcient union-ﬁnd
+data structures. In the context of Kruskal’s algorithm, we perform at most 2m
+ﬁnd operations and n −1 union operations. We will see that a simple union-ﬁnd
+structure can perform that combination of operations in O(m + nlogn) time (see
+Proposition 14.26), and a more advanced structure can support an even faster time.
+For a connected graph, m ≥n−1, and therefore, the bound of O(mlogn) time
+for ordering the edges dominates the time for managing the clusters. We conclude
+that the running time of Kruskal’s algorithm is O(mlogn).

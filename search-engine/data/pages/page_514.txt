@@ -1,0 +1,46 @@
+11.4. Splay Trees
+493
+17
+6
+8
+3
+10
+12
+16
+14
+7
+5
+11
+13
+4
+(d)
+8
+4
+3
+6
+5
+7
+12
+16
+14
+17
+11
+13
+10
+(e)
+7
+4
+17
+8
+10
+16
+14
+3
+13
+11
+6
+5
+12
+(f)
+Figure 11.20: Example of splaying a node:(d) after the zig-zig; (e) the next step is
+again a zig-zig; (f) after the zig-zig. (Continued from Figure 11.19.)

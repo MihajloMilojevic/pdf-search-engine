@@ -1,0 +1,94 @@
+744
+Index
+McDiarmid, Colin, 400
+McIlroy, Douglas, 580
+median, 155, 571
+median-of-three, 561
+Megiddo, Nimrod, 580
+Mehlhorn, Kurt, 535, 696, 719
+member
+function, see method
+nonpublic, 72, 86
+private, 86
+protected, 86
+memory address, 5, 185, 698
+memory allocation, 699
+memory heap, 699
+memory hierarchy, 705
+memory management, 698–704, 708
+merge-sort, 538–550
+multiway, 715–716
+mergeable heap, 534
+Mersenne twister, 50
+method, 6, 57, 69
+implied, 76
+min function, 29
+minimum spanning tree, 670–684
+Kruskal’s algorithm, 676–684
+Prim-Jarnik algorithm, 672–675
+modularity, 58, 59
+module, 48, 59
+abc, 60, 93, 306
+array, 191
+collections, 35, 93, 249, 406, 450
+copy, 49, 102, 188
+ctypes, 191, 195
+gc, 701
+heapq, 384
+math, 28, 49
+os, 49, 159, 182, 357
+random, 49, 49–50, 225, 438
+re, 49
+sys, 49, 190, 192, 701
+time, 49, 111
+unittest, 68
+modulo operator, 13, 216, 242, 726
+Moore, J. Strother, 618
+Morris, James, 618
+Morrison, Donald, 618
+Motwani, Rajeev, 458, 580
+move-to-front heuristic, 289–291
+MST, see minimum spanning tree
+multidimensional data sets, 219–223
+multimap, 450
+multiple inheritance, 468
+multiple recursion, 175
+Multiply-Add-and-Divide (MAD), 416
+multiset, 450
+multiway merge-sort, 715–716
+multiway search tree, 502–504
+Munro, J. Ian, 400
+MutableLinkedBinaryTree class, 319, 353
+MutableMapping abstract base class, 406,
+468
+MutableSet abstract base class, 446, 448
+mutually independent, 729
+n-log-n function, 117
+name resolution, 46, 100
+NameError, 33, 46
+namespace, 23, 46–47, 96–100
+natural join, 227, 297
+negative index, 14
+nested class, 98–99
+nested loops, 118
+next function, 29
+next-ﬁt algorithm, 699
+node, 256, 301, 620
+ancestor, 302
+child, 301
+descendant, 302
+external, 302
+internal, 302
+leaf, 302
+parent, 301
+root, 301
+sibling, 302
+None, 5, 7, 9, 24, 76, 187
+nonpublic member, 72, 86
+not in operator, 14–15
+not operator, 12
+object class, 303
+object-oriented design, 57–108
+objects, 57
+ﬁrst class, 47
+open addressing, 418

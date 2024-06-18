@@ -1,0 +1,108 @@
+360
+Chapter 8. Trees
+A
+B
+C
+D
+E
+F
+D
+E
+F
+B
+C
+A
+(a)
+(b)
+Figure 8.25: (a) Slicing ﬂoor plan; (b) slicing tree associated with the ﬂoor plan.
+of the basic rectangles. Namely, this problem requires the assignment of
+values h(p) and w(p) to each position p of the slicing tree such that:
+w(p) =
+⎧
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎨
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎩
+w
+if p is a leaf whose basic rectangle has
+minimum width w
+max(w(ℓ),w(r))
+if p is an internal position, associated with
+a horizontal cut, with left child ℓand right
+child r
+w(ℓ)+w(r)
+if p is an internal position, associated with
+a vertical cut, with left child ℓand right
+child r
+h(p) =
+⎧
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎨
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎩
+h
+if p is a leaf node whose basic rectangle
+has minimum height h
+h(ℓ)+h(r)
+if p is an internal position, associated with
+a horizontal cut, with left child ℓand right
+child r
+max(h(ℓ),h(r))
+if p is an internal position, associated with
+a vertical cut, with left child ℓand right
+child r
+Design a data structure for slicing ﬂoor plans that supports the operations:
+• Create a ﬂoor plan consisting of a single basic rectangle.
+• Decompose a basic rectangle by means of a horizontal cut.
+• Decompose a basic rectangle by means of a vertical cut.
+• Assign minimum height and width to a basic rectangle.
+• Draw the slicing tree associated with the ﬂoor plan.
+• Compact and draw the ﬂoor plan.

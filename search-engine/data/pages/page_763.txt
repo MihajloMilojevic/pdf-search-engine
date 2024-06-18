@@ -1,0 +1,98 @@
+742
+Index
+directed, 620, 621, 657
+acyclic, 655–657
+strongly connected, 623
+mixed, 621
+reachability, 651–654
+shortest paths, 654
+simple, 622
+traversal, 638–650
+undirected, 620, 621
+weighted, 659–696
+greedy method, 603, 660, 661
+Guibas, Leonidas, 535
+Guttag, John, 108, 254, 298
+Harmonic number, 131, 180, 728
+hash code, 411–415
+cyclic-shift, 413–414
+polynomial, 413
+hash function, 415
+hash table, 410–426
+clustering, 419
+collision, 411
+collision resolution, 417–419
+double hashing, 419
+linear probing, 418
+quadratic probing, 419
+HashMapBase class, 422–423
+header sentinel, 270
+heap, 370–384
+bottom-up construction, 380–384
+heap-sort, 384, 388–389
+HeapPriorityQueue class, 377–378, 382
+heapq module, 384
+height of a tree, 309–310, 474
+height-balance property, 481, 483
+Hell, Pavol, 696
+Hennessy, John, 719
+heuristic, 289
+hierarchy, 82
+Hoare, C. A. R., 580
+hook, 342, 468, 478
+Hopcroft, John, 254, 298, 535, 696
+Hopper, Grace, 36
+Horner’s method, 146
+HTML, 236–238, 251, 582
+Huang, Bing-Chao, 580
+Huffman coding, 601–602
+I/O complexity, 711
+id function, 29
+identiﬁer, 4
+IDLE, 2
+immutable type, 7, 11, 415
+implied method, 76
+import statement, 48
+in operator, 14–15, 75
+in-degree, 621
+in-place algorithm, 389, 396, 559, 702
+incidence collection, 630
+incident, 621
+incoming edges, 621
+independent, 729, 730
+index, 186
+negative, 14
+zero-indexing, 9, 14
+IndexError, 20, 33, 34, 83, 232, 303
+induction, 138–139, 162
+inﬁx notation, 359
+inheritance, 82–95
+multiple, 468
+inorder tree traversal, 331, 335–336, 461,
+476
+input function, 29, 30–31
+insertion-sort, 214–215, 285–286, 387
+instance, 57
+instantiation, 6
+int class, 7, 8
+integrated development environment, 2
+internal memory, 705
+Internet, 227
+interpreter, 2
+inversion, 567, 578
+inverted ﬁle, 456
+IOError, 33, 37
+is not operator, 12
+is operator, 12, 76
+isinstance function, 29, 34
+isomorphism, 355
+iterable type, 9, 21, 35, 39
+iterator, 39–40, 76, 79, 87
+J´
+aJ´
+a, Joseph, 361
+Jarn´
+ık, Vojtˇ
+ech, 696
+join function of str class, 723
+Jones, Richard, 719

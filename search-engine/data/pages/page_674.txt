@@ -1,0 +1,111 @@
+14.4. Transitive Closure
+653
+v7
+v2
+v6
+v4
+v1
+v5
+v3
+DFW
+MIA
+SFO
+ORD
+JFK
+BOS
+LAX
+v7
+v2
+v6
+v4
+v1
+v5
+v3
+MIA
+SFO
+ORD
+JFK
+LAX
+BOS
+DFW
+(a)
+(b)
+v7
+v2
+v6
+v4
+v1
+v5
+v3
+LAX
+MIA
+SFO
+ORD
+JFK
+BOS
+DFW
+v7
+v2
+v6
+v4
+v5
+v3
+v1
+JFK
+LAX
+DFW
+BOS
+SFO
+ORD
+MIA
+(c)
+(d)
+v4
+v1
+v5
+v7
+v3
+v2
+v6
+SFO
+ORD
+MIA
+LAX
+BOS
+JFK
+DFW
+v4
+v1
+v5
+v7
+v3
+v2
+v6
+LAX
+BOS
+JFK
+DFW
+SFO
+ORD
+MIA
+(e)
+(f)
+Figure 14.11: Sequence of directed graphs computed by the Floyd-Warshall algo-
+rithm: (a) initial directed graph ⃗
+G = ⃗
+G0 and numbering of the vertices; (b) directed
+graph ⃗
+G1; (c) ⃗
+G2; (d) ⃗
+G3; (e) ⃗
+G4; (f) ⃗
+G5. Note that ⃗
+G5 = ⃗
+G6 = ⃗
+G7. If directed
+graph ⃗
+Gk−1 has the edges (vi,vk) and (vk,vj), but not the edge (vi,vj), in the draw-
+ing of directed graph ⃗
+Gk, we show edges (vi,vk) and (vk,vj) with dashed lines, and
+edge (vi,vj) with a thick line. For example, in (b) existing edges (MIA,LAX) and
+(LAX,ORD) result in new edge (MIA,ORD).

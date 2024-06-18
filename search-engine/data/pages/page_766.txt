@@ -1,0 +1,95 @@
+Index
+745
+open function, 29, 31
+operand stack, 704
+operators, 12–17
+arithmetic, 13
+bitwise, 14
+chaining, 17
+comparisons, 13
+logical, 12
+overloading, 74
+precedence, 17
+or operator, 12
+ord function, 29
+order statistic, 571
+OrderedDict class, 457
+Orlin, James, 696
+os module, 49, 159, 182, 357
+out-degree, 621
+outgoing edge, 621
+overﬂow, 506
+override, 82, 100
+p-norm, 53
+packing a sequence, 44
+palindrome, 181, 615
+parameter, 24–28
+actual, 24
+default value, 26
+formal, 24
+keyword, 27
+positional, 27
+parent class, 82
+parent node, 301
+parenthetic string representation, 339
+partial order, 16
+partition, 679, 681–684
+pass statement, 38, 478
+path, 302, 623
+compression, 684
+directed, 623
+length, 356, 660
+simple, 623
+pattern matching, 208, 584–593
+Boyer-Moore algorithm, 586–589
+brute force, 584–585
+Knuth-Morris-Pratt algorithm,
+590–593
+Patterson, David, 719
+Perkovic, Ljubomir, 55
+permutation, 150
+Peters, Tim, 568
+Phillips, Dusty, 108
+polymorphism, 26, 77, 93
+polynomial function, 119, 146
+polynomial hash code, 413
+portability, 58
+position, 279–281, 305, 438
+positional list, 277–285
+abstract data type, 279–281
+PositionalList class, 281–285, 287, 628
+positional parameter, 27
+postﬁx notation, 252, 253, 359
+postorder tree traversal, 329
+pow function, 29
+power function, 172
+Pratt, Vaughan, 618
+precedence of operators, 17
+PredatoryCreditCard, 83–86, 96–100,
+106
+preﬁx, 583
+preﬁx average, 131–134
+preﬁx code, 601
+preorder tree traversal, 328
+Prim, Robert, 696
+Prim-Jarnik algorithm, 672–675
+primitive operations, 113
+print function, 29, 30
+priority queue, 363–400
+adaptable, 390–395, 666
+ADT, 364
+heap implementation, 372–379
+sorted list implementation, 368–369
+unsorted list implementation,
+366–367
+priority search tree, 400
+PriorityQueueBase class, 365
+private member, 86
+probability, 728–730
+ProbeHashMap class, 425–426
+program counter, 703
+progression, 87–91, 93
+arithmetic, 89, 199–200
+Fibonacci, 90–91
+geometric, 90, 199
+protected member, 86

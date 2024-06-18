@@ -1,0 +1,100 @@
+662
+Chapter 14. Graph Algorithms
+Algorithm ShortestPath(G,s):
+Input: A weighted graph G with nonnegative edge weights, and a distinguished
+vertex s of G.
+Output: The length of a shortest path from s to v for each vertex v of G.
+Initialize D[s] = 0 and D[v] = ∞for each vertex v ̸= s.
+Let a priority queue Q contain all the vertices of G using the D labels as keys.
+while Q is not empty do
+{pull a new vertex u into the cloud}
+u = value returned by Q.remove min()
+for each vertex v adjacent to u such that v is in Q do
+{perform the relaxation procedure on edge (u,v)}
+if D[u]+w(u,v) < D[v] then
+D[v] = D[u]+w(u,v)
+Change to D[v] the key of vertex v in Q.
+return the label D[v] of each vertex v
+Code Fragment 14.12: Pseudo-code for Dijkstra’s algorithm, solving the single-
+source shortest-path problem.
+337
+1846
+187
+849
+1258
+1090
+867
+144
+946
+621
+2704
+184
+2342
+1235
+740
+1391
+1121
+PVD
+1464
+802
+BWI
+DFW
+LAX
+ORD
+MIA
+SFO
+BOS
+JFK
+∞
+∞
+∞
+∞
+0
+∞
+∞
+∞
+∞
+1464
+621
+740
+1391
+1121
+946
+184
+2704
+2342
+1235
+802
+337
+1846
+187
+849
+PVD
+1258
+1090
+867
+144
+DFW
+JFK
+MIA
+ORD
+BWI
+LAX
+BOS
+SFO
+∞
+946
+621
+184
+0
+∞
+∞
+∞
+∞
+(a)
+(b)
+Figure 14.15: An execution of Dijkstra’s algorithm on a weighted graph. The start
+vertex is BWI. A box next to each vertex v stores the label D[v]. The edges of
+the shortest-path tree are drawn as thick arrows, and for each vertex u outside the
+“cloud” we show the current best edge for pulling in u with a thick line. (Continues
+in Figure 14.16.)

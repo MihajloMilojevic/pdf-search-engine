@@ -1,0 +1,59 @@
+518
+Chapter 11. Search Trees
+4
+18
+3
+14
+15
+7
+12
+5
+16
+4
+18
+3
+14
+16
+7
+12
+5
+15
+(m)
+(n)
+4
+15
+18
+3
+14
+16
+7
+12
+5
+17
+4
+15
+18
+3
+14
+16
+7
+12
+5
+17
+(o)
+(p)
+12
+7
+16
+17
+15
+3
+4
+5
+14
+18
+(q)
+Figure 11.36: A sequence of insertions in a red-black tree: (m) insertion of 16,
+which causes a double red; (n) after restructuring; (o) insertion of 17, which causes
+a double red; (p) after recoloring there is again a double red, to be handled by a
+restructuring; (q) after restructuring. (Continued from Figure 11.35.)

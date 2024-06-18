@@ -1,0 +1,93 @@
+746
+Index
+prune-and-search, 571–573
+pseudo-code, 64
+pseudo-randomnumber generator, 49–50,
+438
+Pugh, William, 458
+puzzle solver, 175–176
+Python heap, 699
+Python interpreter, 2
+Python interpreter stack, 703
+quadratic function, 117
+quadratic probing, 419
+queue, 239
+abstract data type, 240
+array implementation, 241–246
+linked-list implementation, 264–265
+quick-sort, 550–561
+radix-sort, 565–566
+Raghavan, Prabhakar, 458, 580
+raise statement, 34–35, 38
+Ramachandran, Vijaya, 361
+random access memory (RAM), 185
+Random class, 50
+random module, 49, 49–50, 225, 438
+random seed, 50
+random variable, 729
+randomization, 438
+randomized quick-select, 572
+randomized quick-sort, 557
+randrange function, 50, 51, 225
+range class, 22, 27, 29, 80–81
+re module, 49
+reachability, 623, 638
+recurrence equation, 162, 546, 573, 576
+recursion, 149–179, 703–704
+binary, 174
+depth limit, 168, 528
+linear, 169–173
+multiple, 175–176
+tail, 178–179
+trace, 151, 161, 703
+red-black tree, 512–525
+depth property, 512
+recoloring, 516
+red property, 512
+root property, 512
+Reed, Bruce, 400
+reference, 187
+reference count, 209, 701
+reﬂexive property, 385, 537
+rehashing, 420
+reserved words, 4
+return statement, 24
+reusability, 57, 58
+reversed function, 29
+Ribeiro-Neto, Berthier, 618
+Rivest, Ronald, 535, 696
+Robson, David, 298
+robustness, 57
+root objects, 700
+root of a tree, 301
+rotation, 475
+round function, 29
+round-robin, 267
+running time, 110
+Samet, Hanan, 719
+Schaffer, Russel, 400
+scheduling, 400
+scope, 46–47, 96, 98, 701
+global, 46, 96
+local, 23–25, 46, 96
+Scoreboard class, 211–213
+script, 2
+search engine, 612
+search table, 428–433
+search tree, 460–535
+Sedgewick, Robert, 400, 535
+seed, 50, 438
+selection, 571–573
+selection-sort, 386–387
+self identiﬁer, 69
+self-loop, 622
+sentinel, 270–271
+separate chaining, 417
+sequential search, 155
+set class, 7, 11, 446
+set comprehension, 43
+shallow copy, 101, 188
+Sharir, Micha, 361
+short-circuit evaluation, 12, 20, 208
+shortest path, 660–669
+Dijkstra’s algorithm, 661–669

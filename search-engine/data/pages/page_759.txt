@@ -1,0 +1,96 @@
+738
+Index
+abc module, 60, 93, 306
+Abelson, Hal, 182
+abs function, 29, 75
+abstract base class, 60, 93–95, 306, 317,
+406
+abstract data type, v, 59
+deque, 247–248
+graph, 620–626
+map, 402–408
+partition, 681–684
+positional list, 279–281
+priority queue, 364
+queue, 240
+sorted map, 427
+stack, 230–231
+tree, 305–306
+abstraction, 58–60
+(a,b) tree, 712–714
+access frequency, 286
+accessors, 6
+activation record, 23, 151, 703
+actual parameter, 24
+acyclic graph, 623
+adaptability, 57, 58
+adaptable priority queue, 390–395, 666,
+667
+AdaptableHeapPriorityQueue class,
+392–394, 667
+adapter design pattern, 231
+Adel’son-Vel’skii, Georgii, 481, 535
+adjacency list, 627, 630–631
+adjacency map, 627, 632, 634
+adjacency matrix, 627, 633
+ADT, see abstract data type
+Aggarwal, Alok, 719
+Aho, Alfred, 254, 298, 535, 618
+Ahuja, Ravindra, 696
+algorithm, 110
+algorithm analysis, 123–136
+average-case, 114
+worst-case, 114
+alias, 5, 12, 101, 189
+all function, 29
+alphabet, 583
+amortization, 164, 197–200, 234, 237, 246,
+376, 681–684
+ancestor, 302
+and operator, 12
+any function, 29
+arc, 620
+arithmetic operators, 13
+arithmetic progression, 89, 199–200
+ArithmeticError, 83, 303
+array, 9, 183–222, 223, 227
+compact, 190, 711
+dynamic, 192–201, 246
+array module, 191
+ArrayQueue class, 242–246, 248, 292,
+306
+ASCII, 721
+assignment statement, 4, 24
+chained, 17
+extended, 16
+simultaneous, 45, 91
+asymptotic notation, 123–127, 136
+big-Oh, 123–127
+big-Omega, 127, 197
+big-Theta, 127
+AttributeError, 33, 100
+AVL tree, 481–488
+balance factor, 531
+height-balance property, 481
+back edge, 647, 689
+backslash character, 3
+Baeza-Yates, Ricardo, 535, 580, 618, 719
+Bar˚
+uvka, Otakar, 693, 696
+base class, 82
+BaseException, 83, 303
+Bayer, Rudolf, 535, 719
+Beazley, David, 55
+Bellman, Richard, 618
+Bentley, Jon, 182, 400, 580
+best-ﬁt algorithm, 699
+BFS, see breadth-ﬁrst search
+biconnected graph, 690
+big-Oh notation, 123–127
+big-Omega notation, 127, 197
+big-Theta notation, 127
+binary heap, 370–384
+binary recursion, 174
+binary search, 155–156, 162–163,
+428–433, 571
+binary search tree, 332, 460–479

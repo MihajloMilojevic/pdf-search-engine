@@ -1,0 +1,74 @@
+508
+Chapter 11. Search Trees
+4
+4
+6
+6
+4
+12
+6 12
+4
+15
+(a)
+(b)
+(c)
+(d)
+12
+4
+6
+15
+12
+4
+15
+6
+(e)
+(f)
+6
+15
+12
+4
+3
+15
+12
+3
+4
+5
+6
+(g)
+(h)
+15
+12
+3
+4
+5
+6
+12
+15
+4
+3
+5
+6
+(i)
+(j)
+10
+12
+3
+15
+6
+4
+5
+3
+15
+12
+10
+4
+6
+8
+5
+(k)
+(l)
+Figure 11.27: A sequence of insertions into a (2,4) tree: (a) initial tree with one
+item; (b) insertion of 6; (c) insertion of 12; (d) insertion of 15, which causes an
+overﬂow; (e) split, which causes the creation of a new root node; (f) after the split;
+(g) insertion of 3; (h) insertion of 5, which causes an overﬂow; (i) split; (j) after the
+split; (k) insertion of 10; (l) insertion of 8.
