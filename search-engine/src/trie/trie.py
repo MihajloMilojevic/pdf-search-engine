@@ -15,15 +15,15 @@ class Trie(TrieNode):
         if data:
             node.data.append(data)
 
-    def search(self, word: str) -> NodeData:
+    def search(self, word: str) -> list[NodeData]:
         node = self
         for letter in word:
             if letter not in node.children:
-                return []
+                return None
             node = node.children[letter]
         if node.is_end_of_word:
             return node.data
-        return []
+        return None
 
     def starts_with(self, prefix) -> list[str]:
         node = self

@@ -55,21 +55,8 @@ class SearchEngine:
         for page in results:
             for word in results[page]:
                 results[page][word] = tuple(results[page][word])
-        scores = self.__rank(results, words)
-        pages = []
-        for page, words in results.items():
-            wordlist = []
-            for word, data in words.items():
-                wordlist.append({
-                    "word": word,
-                    "occurrences": data[0],
-                    "positions": data[1]
-                })
-            wordlist.sort(key=lambda x: x["occurrences"], reverse=True)
-            wordlist = list(map(lambda x: (x["word"], x["positions"]), wordlist))
-            pages.append((page, wordlist))
-        pages.sort(key=lambda x: scores[x[0]], reverse=True)
-        return pages
+        return results
+        
         
 
 
@@ -92,7 +79,21 @@ class SearchEngine:
             # the more words are found the better - square the coefficient to more emphasize the difference
             score *= (len(words) / len(searched_words))**2
             scores[page] = score
-        return scores
+
+        pages = []
+        for page, words in results.items():
+            wordlist = []
+            for word, data in words.items():
+                wordlist.append({
+                    "word": word,
+                    "occurrences": data[0],
+                    "positions": data[1]
+                })
+            wordlist.sort(key=lambda x: x["occurrences"], reverse=True)
+            wordlist = list(map(lambda x: (x["word"], x["positions"]), wordlist))
+            pages.append((page, wordlist))
+        pages.sort(key=lambda x: scores[x[0]], reverse=True)
+        return pages
 
 
 
