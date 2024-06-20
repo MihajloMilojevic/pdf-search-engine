@@ -31,14 +31,14 @@ class Trie(TrieNode):
             if letter not in node.children:
                 return []
             node = node.children[letter]
-        
         words = []
-        queue = [(node, prefix)]
+        queue = [(child, prefix) for child in node.children.values()]
         while queue:
             (current_node, current_prefix) = queue.pop(0)
             if current_node.is_end_of_word:
-                words.append(prefix + current_node.letter)
-            queue.extend([(child, current_prefix + current_node.letter) for child in current_node.children.values()])
+                words.append(current_prefix + current_node.letter)
+            new_prefix = current_prefix + current_node.letter
+            queue.extend([(child, new_prefix) for child in current_node.children.values()])
         return words
 
     def __repr__(self):
