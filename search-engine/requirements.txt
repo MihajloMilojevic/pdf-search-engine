@@ -1,0 +1,9 @@
+click==8.1.7
+colorama==0.4.6
+joblib==1.4.2
+nltk==3.8.1
+PyMuPDF==1.24.5
+PyMuPDFb==1.24.3
+pyspellchecker==0.8.1
+regex==2024.5.15
+tqdm==4.66.4
