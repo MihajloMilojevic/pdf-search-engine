@@ -1,0 +1,115 @@
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.input {
+    outline: none;
+    border: none;
+    padding: 0.25rem 0.75rem;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.form button {
+    padding: 0.25rem 0.75rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.suggestions {
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+}
+
+.suggestions li {
+    padding: 0.25rem;
+    margin: 0.25rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.suggestions li:hover {
+    background-color: rgba(211, 211, 211, 0.988);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+    margin-top: 1rem;
+}
+
+.pagination span {
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgba(211, 211, 211, 0.988);
+    color: black;
+    padding: 0.25rem;
+}
+
+.loader_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 75px;
+    aspect-ratio: 1;
+    display: grid;
+    color: #d37c2b;
+    background: radial-gradient(farthest-side, currentColor calc(100% - 6px), #0000 calc(100% - 5px) 0);
+    -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 13px), #000 calc(100% - 12px));
+    border-radius: 50%;
+    animation: l19 2s infinite linear;
+}
+
+.loader::before,
+.loader::after {
+    content: "";
+    grid-area: 1/1;
+    background:
+        linear-gradient(currentColor 0 0) center,
+        linear-gradient(currentColor 0 0) center;
+    background-size: 100% 10px, 10px 100%;
+    background-repeat: no-repeat;
+}
+
+.loader::after {
+    transform: rotate(45deg);
+}
+
+@keyframes l19 {
+    100% {
+        transform: rotate(1turn)
+    }
+}

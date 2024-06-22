@@ -4,6 +4,7 @@ import uvicorn
 from search_engine import init, SearchEngine
 from search_engine.utils.relative_path import relative_path
 from fastapi import Response
+from fastapi.middleware.cors import CORSMiddleware
 
 root = fastapi.FastAPI()
 
@@ -11,6 +12,14 @@ pdf_file_path = relative_path("data", "book.pdf")
 pickle_file_path = relative_path("data", "engine.pickle")
 
 search_engine: SearchEngine = init(pdf_file_path, pickle_file_path)
+
+root.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @root.get("/api/search") 
 async def search(query: str = "", page: int = 1, page_size: int = 10):

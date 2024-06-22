@@ -45,6 +45,8 @@ class SearchEngine:
         return results, total_results, total_pages, page, results_per_page
     
     def __get_context(self, page: int, results: list[tuple[str, set[int]]]) -> str:
+        CHARACTERS_BEFORE = 30
+        CHARACTERS_AFTER = 100
         if len(results) == 0:
             return "", set()
         document = pymupdf.open(self.file_path)
@@ -61,15 +63,16 @@ class SearchEngine:
         if regex_match is None:
             return "", all_words
         index = regex_match.start()
-        start = max(0, index - 30)
-        end = min(len(text), index + 50)
+        start = max(0, index - CHARACTERS_BEFORE)
+        end = min(len(text), index + CHARACTERS_AFTER)
         context = text[start:end]
         document.close()
         return context, all_words
     
     def complete(self, input_text: str):
         prefix = strip_text(input_text).lower().split()[-1]
-        return self.trie.starts_with(prefix)
+        print(prefix)
+        return self.trie.starts_with(prefix)[:5]
     
     def did_you_mean(self, input_text: str):
         words = strip_text(input_text).lower().split()

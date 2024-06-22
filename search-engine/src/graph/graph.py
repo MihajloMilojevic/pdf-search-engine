@@ -2,7 +2,7 @@ from .graph_node import GraphNode
 
 class PagesGraph:
     def __init__(self, num_pages):
-        self.nodes: dict[GraphNode] = {}
+        self.nodes: dict[int, GraphNode] = {}
         for page in range(num_pages):
             self.add_node(page)
         for i in range(num_pages):
