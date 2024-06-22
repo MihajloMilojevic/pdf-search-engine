@@ -127,7 +127,6 @@ function App() {
 		<div className={styles.app}>
 			<form className={styles.form} onSubmit={handleSearch}>
 				<AutoComplete
-					autoHighlight={true}
 					autoFocus={true}
 					autoComplete="off"
 					panelClassName={styles.suggestions}
@@ -135,7 +134,7 @@ function App() {
 					inputClassName={styles.input}
 					delay={0}
 					variant="filled"
-					laceholder="Search..."
+					placeholder="Search..."
 					value={query}
 					suggestions={autocomplete}
 					completeMethod={() => { }}
