@@ -2,10 +2,12 @@ import React, { useState, useRef, useEffect, useMemo } from "react";
 import styles from "./app.module.css"
 import { AutoComplete } from 'primereact/autocomplete';
 import { GrCaretNext, GrChapterNext, GrCaretPrevious, GrChapterPrevious } from "react-icons/gr";
+import Highlighter from "./Highligher";
 
 
 function App() {
-	const API_URL = "http://127.0.0.1:8080";
+	// const API_URL = "http://127.0.0.1:8080";
+	const API_URL = ""
 	useEffect(() => {
 		const urlParams = new URLSearchParams(window.location.search);
 		const queryParam = urlParams.get('query');
@@ -55,13 +57,14 @@ function App() {
 			}
 			const data = await response.json();
 			setSearchResults(data);
+		}
+		catch (error) {
+		}
+		finally {
 			setTimeout(() => {
 				setLoading(false);
 			}, 500);
 
-		}
-		catch (error) {
-			console.error(error);
 		}
 	}
 
@@ -90,7 +93,6 @@ function App() {
 			const data = await response.json();
 			setAutocomplete(data);
 		} catch (error) {
-			console.error(error);
 		}
 
 	}
@@ -164,8 +166,9 @@ function App() {
 									searchResults.results.length == 0 ? <p>No results found</p> : (
 										searchResults.results.map((result, index) => (
 											<div key={index} className={styles.result}>
-												<p>{start + index}. on page: {result[0]}</p>
-												<p>{result[1][0]}</p>
+												<p>{start + index}. on page: {result[0] + 1}</p>
+												<br />
+												<p><Highlighter text={result[1][0]} words={result[1][1]} /></p>
 												<br />
 												<hr />
 												<br />

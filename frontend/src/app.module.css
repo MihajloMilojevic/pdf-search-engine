@@ -24,13 +24,13 @@
 .input {
     outline: none;
     border: none;
-    padding: 0.25rem 0.75rem;
+    padding: 0.5rem 0.75rem;
     border-radius: 5px;
     width: 100%;
 }
 
 .form button {
-    padding: 0.25rem 0.75rem;
+    padding: 0.5rem 0.75rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;

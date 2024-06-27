@@ -45,8 +45,8 @@ class SearchEngine:
         return results, total_results, total_pages, page, results_per_page
     
     def __get_context(self, page: int, results: list[tuple[str, set[int]]]) -> str:
-        CHARACTERS_BEFORE = 30
-        CHARACTERS_AFTER = 100
+        CHARACTERS_BEFORE = 75
+        CHARACTERS_AFTER = 200
         if len(results) == 0:
             return "", set()
         document = pymupdf.open(self.file_path)
@@ -83,7 +83,10 @@ class SearchEngine:
                 continue
             best_suggestion = None
             best_suggestion_occurences = 0
-            for suggestion in spell.candidates(word):
+            candidates = spell.candidates(word)
+            if candidates is None:
+                continue
+            for suggestion in candidates:
                 if suggestion in self.trie:
                     if best_suggestion is None:
                         best_suggestion = suggestion
